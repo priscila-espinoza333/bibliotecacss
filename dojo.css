@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+.btn{
+    background-color: orange;
+    width: 100px;
+    color: white;
+    box-shadow: 30px 20px gainsboro;
+    border: 3px solid lightslategray;
+}
+
+.row, .col {
+    column-gap: flex;
+  }
+
+.navbar {
+    display: flex;
+  }
